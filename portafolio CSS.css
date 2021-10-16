@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Desktop /Global view*/
+.body{
+	
+	font-family: 'Open sans', sans-serif; 
+}
+
+
+.slicknav_menu{
+	
+	display: none;
+	
+	
+	
+}
+#menu {
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+	
+}
+
+#menu li a {
+	
+	text-decoration: none;
+	color: #4AA39F;
+	padding: 8px;
+	font-size: 18px;
+	
+	
+}
+
+
+header{
+	
+padding: 10px 20px 20px 20px;	
+	
+	
+}
+.hero {
+	background-image: url();
+	padding: 52px 0px 72px 72px ;
+	background-size: cover;
+}
+.subheading{
+color:#191516;	
+font-weight: 800px;
+	font-size: 33px;
+	margin-bottom: 54px;
+}
+.h1{
+	color:#191516;	
+font-weight: 300px;
+	font-size: 52px;
+	margin-bottom: -5px;	
+}
+.subheading-copy-text{
+	color:#3FA6C0;
+	margin-right: 20%
+		
+}
+
+.boton{
+background-color:black;
+	padding: 8px 30px;
+	text-decoration: none;
+	color: #FFFFFF
+}
+
+/* table view*/
+@media (max-width:768px){
+	#menu li{ 
+	display: block;
+		text-align: right;
+		
+	}
+}
+	
+	
+/* Mobile view*/
+@media (max-width:400px){ 
+	
+	
+
+.slicknav_menu{ 
+	
+	display: block;}
+
+#menu {
+	display: none; 
+	
+}
+}
